@@ -1,0 +1,15 @@
+[project]
+name = "pjrope"
+version = "0.1.0"
+description = "Minimal reproducibility code for PJ-RoPE experiments"
+requires-python = ">=3.10"
+dependencies = [
+  "torch",
+  "numpy",
+  "pandas",
+  "matplotlib",
+  "mido",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
